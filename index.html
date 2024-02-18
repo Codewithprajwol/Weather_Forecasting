@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+
+        <div class="weatherpage">
+            <h1 class="topic">Weather API</h1>
+            <div class="search-div">
+                <input class="inputbox" type="text" placeholder="Enter your location">
+                <i id="search-icon" class="ri-search-line"></i>
+            </div>
+            <div class="location-not-found">
+                <h1>Sorry, Location not found!!!</h1>
+                <img src="/images/404.png" alt="error img">
+            </div>
+             <div class="weather-images">
+                <img  class="wetheri" src="/images/clear.png" alt="clear">
+                <div class="image-content">
+                    <h1 class="temp super">0 <sup>°K</sup></h1>
+                    <p class="desci">Light rain</p>
+                </div>
+             </div>
+             <div class="extra-info">
+                <div class="humidity">
+                    <i class="ri-water-percent-fill"></i>
+                    <P><span class="humi">51%</span><br>humidity</P>
+                </div>
+                <div class="windspeed">
+                    <i class="ri-windy-line"></i>
+                    <p><span class="wind">13km/H</span><br>Wind Speed</p>
+                </div>
+             </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
