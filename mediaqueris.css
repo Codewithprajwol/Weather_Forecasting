@@ -1,0 +1,17 @@
+@media(max-width:720px){
+    .weatherpage{
+        width:80vw;
+    }
+    .search-div{
+        height:10vh;
+    }
+    .search-div>input{
+        height:5vh;
+    }
+    .search-div input::placeholder{
+        font-size:1rem;
+    }
+    .search-div i{
+        font-size:2rem;
+    }
+}
